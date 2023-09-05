@@ -1,15 +1,45 @@
+/* small divice */
 @media screen and (max-width: 576px) {
-  .nav-container {
+  .nav-container,
+  .banner,
+  .four-img,
+  .play-instant-section {
     flex-direction: column;
-    
   }
-  .menus{
+  .b-img {
+    width: 100%;
+    text-align: center;
+    object-fit: cover;
+  }
+  .menus {
     display: flex;
     flex-direction: column;
-    
   }
-  .menus a{
+  .menus a {
     margin-bottom: 16px;
   }
-  
+  .description {
+    margin: 20px 0;
+  }
+}
+/* medium divice */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .nav-container,
+  .banner,
+  .four-img,
+  .play-instant-section {
+    flex-direction: column;
+  }
+  .b-img {
+    width: 100%;
+    text-align: center;
+    object-fit: cover;
+  }
+  .menus {
+    display: flex;
+    flex-direction: column;
+  }
+  .menus a {
+    margin-bottom: 16px;
+  }
 }

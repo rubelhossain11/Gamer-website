@@ -7,18 +7,13 @@
     <link rel="shortcut icon" href="images/Frame.png" type="image/x-icon" />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/responsive.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,500&family=Work+Sans:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
-      <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-      <path
-        d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
-      />
-    </svg>
   </head>
   <body>
     <!-- header start -->
@@ -32,7 +27,10 @@
           <div class="menus">
             <a href="">About Us</a>
             <a href="">Developers</a>
-            <button>Follow Us On</button>
+            <button>
+              Follow Us On
+              <i class="fa-brands icon fa-youtube"></i>
+            </button>
           </div>
         </div>
       </nav>
@@ -40,22 +38,88 @@
     <!-- header end -->
     <!-- main start -->
     <main>
+      <!-- banner section start -->
       <section class="banner">
-        <div>
+        <div class="banner-divide">
           <div>
             <h1 class="banner-title">Play Like The</h1>
-          <h1 class="banner-dot">G.O.A.T.</h1>
-          <p class="text">1-Click instant play</p>
-          <p class="text">No Download</p>
-          <p class="text">1000s of supported online games</p>
+            <h1 class="banner-dot">G.O.A.T.</h1>
+            <p class="text">
+              <i class="fa-solid fa-video"></i> 1-Click instant play
+            </p>
+            <p class="text"><i class="fa-solid fa-download"></i> No Download</p>
+            <p class="text">
+              <i class="fa-solid fa-person-breastfeeding"></i>
+              1000s of supported online games
+            </p>
           </div>
           <div class="space-btn">
             <button class="btn-primary">Sign In</button>
-          <button class="btn-secondary">GO ROGUE</button>
+            <button class="btn-secondary">GO ROGUE</button>
           </div>
         </div>
-        <div>
-            <img class="banner-img" src="images/Group 18.png" alt="">
+        <!-- banner img -->
+        <div class="b-img">
+          <img class="banner-img" src="images/Group 18.png" alt="" />
+        </div>
+      </section>
+      <!-- banner section ends -->
+      <!-- Funny videos section start -->
+      <section class="funny-videos">
+        <div class="funny-content">
+          <h1 class="funny-title">Online Games <span>Funny Videos</span></h1>
+          <p class="description">
+            A Collection of Hilarious Videos to Brighten Your Day
+          </p>
+        </div>
+        <!-- four image -->
+        <div class="four-img">
+          <div class="img-style">
+            <img class="img-width" src="images/Rectangle 4.png" alt="" />
+            <p class="description">
+              No Download. No Installs. Play <br />
+              games Instantly on Gamer.
+            </p>
+          </div>
+          <div class="img-style">
+            <img class="img-width" src="images/Rectangle 5.png" alt="" />
+            <p class="description">
+              Did you score? #unblockedgames <br />
+              #school.
+            </p>
+          </div>
+          <div class="img-style">
+            <img class="img-width" src="images/Rectangle 7.png" alt="" />
+            <p class="description">
+              Breaking game records <br />
+              like OG
+            </p>
+          </div>
+          <div class="img-style">
+            <img class="img-width" src="images/Rectangle 6.png" alt="" />
+            <p class="description">
+              Busted gaming on school laptop, <br />
+              but you are still lit.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- play instantly section -->
+      <section class="play-instant-section">
+        <div class="play-content">
+          <h1 class="play-ins">Play Instantly,</h1>
+          <h1 class="play-title">No Downloads</h1>
+          <h1 class="play-title">No Installs.</h1>
+          <p class="description">Play games online for free without <br>
+            downloading. Just click the Play button <br> 
+            and play instantly in your browser.</p>
+
+        </div>
+        <div class="relative-img">
+          <img src="images/Rectangle 55.png" alt="">
+          <div class="rel-img">
+            <img src="images/Rectangle 66.png" alt="">
+          </div>
         </div>
       </section>
     </main>

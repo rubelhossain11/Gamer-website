@@ -13,7 +13,7 @@
   justify-content: space-around;
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-  margin: 0 auto;
+  margin: 30px auto;
 }
 .logo {
   display: flex;
@@ -41,6 +41,10 @@
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
   margin-left: 20px;
+  color: #3c354f;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
   border: none;
 }
 .nav-title {
@@ -62,13 +66,16 @@
   justify-content: center;
   align-items: center;
   justify-content: space-around;
-  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
-  margin-top: 40PX;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 13.13%,
+    rgba(255, 66, 165, 0.03) 87.94%
+  );
+  margin-top: 40px;
 }
 .banner-img {
   width: 711px;
   height: 446px;
-  
 }
 .space-btn {
   margin-top: 30px;
@@ -103,6 +110,14 @@
     --Linear,
     linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
   );
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.btn-primary:hover {
+  background-color: greenyellow;
 }
 .btn-secondary {
   display: inline-flex;
@@ -111,4 +126,89 @@
   gap: 10px;
   border-radius: 48px;
   background: #4ec5f7;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.icon {
+  color: red;
+  margin-left: 10px;
+}
+/* funny videos section */
+.funny-videos {
+  margin-top: 50px;
+}
+.funny-title {
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+}
+.funny-content span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+.description {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.funny-content {
+  text-align: center;
+}
+/* four img */
+.four-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 50px auto;
+}
+.img-width {
+  width: 342px;
+  height: 400px;
+}
+/* play instantly */
+.play-instant-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.play-content {
+  text-align: right;
+}
+.play-ins {
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #ff42a5;
+}
+.play-title {
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.relative-img {
+  width: 634.833px;
+  height: 650px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+.rel-img {
+  position: relative;
+  top: -300px;
+  right: 140px;
 }
